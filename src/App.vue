@@ -36,7 +36,7 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>
         <router-link class="router-link-default" to="/">
-          nDO - nDependent Dynamic Objects
+          nDO : n-dependent Dynamic Objects
         </router-link>
       </v-toolbar-title>
     </v-app-bar>

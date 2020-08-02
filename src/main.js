@@ -11,9 +11,9 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 // 2. Define route components
-const Home = () => import('./components/HelloWorld.vue')
+const Home = () => import('./components/Home.vue')
 const Users = () => import('./components/Users.vue')
-const Settings = { template: '<div>Settings</div>' }
+const Settings = () => import('./components/Admin.vue')
 
 // 3. Create the router
 const router = new VueRouter({
